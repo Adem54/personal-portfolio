@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 const StyledNavbar = () => {
   return (
-    <nav className="hidden sm:flex gap-x-12 ">
+    <nav className="hidden sm:flex sm:gap-x-6 md:gap-x-12 ">
          <NavLink  to="/home"  
             className={({isActive})=>(isActive ? "link active" : "link")}
          >Home</NavLink>
@@ -16,7 +16,8 @@ const StyledNavbar = () => {
 
         <NavLink  to="/works"
            className={({isActive})=>(isActive ? "link active" : "link")}
-         >Work</NavLink>       
+         >Work</NavLink>      
+
         </nav>
   )
 }
