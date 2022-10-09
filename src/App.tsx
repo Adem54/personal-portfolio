@@ -1,10 +1,27 @@
 import "./App.css";
+import {BrowserRouter,Routes,Route} from "react-router-dom";
+import SharedLayout from "./components/SharedLayout";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Works from "./pages/Works";
+import Experience from "./pages/Experience";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold text-red-400 ">Hello world!</h1>
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<SharedLayout/>}>
+      <Route path="/home" element={<Home/>} />  
+      <Route path="/about" element={<About/>}/>
+      <Route path="/experience" element={<Experience/>}/>
+      <Route path="/works" element={<Works/>}/>
+      <Route path="*" element={<NotFound/>}/>
+      </Route>
+    </Routes>
+    
+    
+    </BrowserRouter>
   );
 }
 
