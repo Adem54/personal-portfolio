@@ -12,6 +12,7 @@ module.exports = {
         "screen/5": "calc(100vh / 5)",
         "screen-90":"90vh",
         "screen-10":"10vh",
+        "screen-120":"120vh",
       },
       screens:{
         "sm":"480px",
@@ -21,7 +22,11 @@ module.exports = {
       },
       spacing:{
         "big":"42rem"
+      },
+      fontFamily:{
+        'roboto':['Roboto', "sans-serif"]
       }
+      
 
     },
   },
