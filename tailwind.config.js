@@ -10,7 +10,8 @@ module.exports = {
         "screen/3": "calc(100vh / 3)",
         "screen/4": "calc(100vh / 4)",
         "screen/5": "calc(100vh / 5)",
-        "screen-80":"90vh",
+        "screen-90":"90vh",
+        "screen-10":"10vh",
       },
       screens:{
         "sm":"480px",

@@ -10,28 +10,26 @@ const MobileMenu = () => {
     <div className="sm:hidden text-2xl cursor-pointer  mr-4">
   {isOpen ? <MdCancel onClick={handleToggle}/> : <FiAlignJustify  onClick={handleToggle}/>}  
     </div>
-    <nav className={`${isOpen ? 'top-24 ' : '-top-64 ' } flex  sm:hidden absolute  w-full bg-slate-500 text-white items-center flex-col 
-       transition-all ease-in-out delay-150 duration-1000 rounded-b-lg`}>
+    <nav className={`${isOpen ? 'top-16 ' : '-top-64 ' } flex  sm:hidden absolute  w-full bg-gray-100  items-center flex-col 
+       transition-all ease-in-out  duration-1000 rounded-b-lg text-gray-600 font-bold text-md capitalize`}>
        
     {/* <div  className="absolute top-3 right-3 cursor-pointer text-2xl text-white z-32 "> <MdCancel onClick={handleToggle}/></div> */}
-         <NavLink  to="/home"  
-            className={({isActive})=>(isActive ? "link  active border-b-2 w-screen text-center p-4 hover:bg-sky-700" : "link border-b-2 w-screen text-center p-4 hover:bg-sky-700  ")
-               
-        }
+         <NavLink  to="/"  
+            className="link border-b-2 w-screen text-center p-4 hover:bg-cyan-100"
             
            
          >Home</NavLink>
          <NavLink  to="/about"
-           className={({isActive})=>(isActive ? "link active border-b-2 w-screen text-center p-4 hover:bg-sky-700" : "link border-b-2 w-screen text-center p-4 hover:bg-sky-700")}
+            className="link border-b-2 w-screen text-center p-4 hover:bg-cyan-100"
           
          >About</NavLink>
          <NavLink  to="/experience"
-           className={({isActive})=>(isActive ? "link active border-b-2 w-screen text-center p-4 hover:bg-sky-700" : "link border-b-2 w-screen text-center p-4 hover:bg-sky-700")}
+           className="link border-b-2 w-screen text-center p-4 hover:bg-cyan-100"
            
          >Experience</NavLink>
 
         <NavLink  to="/works"
-           className={({isActive})=>(isActive ? "link active border-b-2 w-screen text-center p-4 hover:bg-sky-700" : "link border-b-2 w-screen text-center p-4 hover:bg-sky-700")}
+            className="link border-b-2 w-screen text-center p-4 hover:bg-cyan-100"
            
          >Work</NavLink>       
         </nav>
