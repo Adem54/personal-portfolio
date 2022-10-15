@@ -23,7 +23,7 @@ const Home = () => {
             delaySpeed={1000}
             
           />
-          </p><span className={`text-gray-600  ${mode ? 'text-white':''}`}>Web Developer</span>
+          </p><span className={`  ${mode ? 'text-white':'text-gray-600'}`}>Web Developer</span>
          
 
         </div>
