@@ -42,6 +42,14 @@ export const experiences=[
 
 export const projects=[
     {
+        id:19,
+        title:"react-personal-portfolio",
+        description:"",
+        img:"https://i.postimg.cc/25grDq72/portolio.png",
+        githubUrl:"https://github.com/Adem54/personal-portfolio",
+        project:"front-end"
+    },
+    {
         id:1,
         title:"food-menu-app",
         description:"This food menu application has been presented to the user by listing. At the same time, we can filter the breakfast, lunch and shakes, food and beverage list with the filtering buttons. And we can also apply a search filter by searching for the food or beverage name we have listed in the search box.",
@@ -49,6 +57,8 @@ export const projects=[
         githubUrl:"https://github.com/Adem54/food-menu-app",
         project:"front-end"
     },
+
+   
     {
         id:2,
         title:"react-lazy-loading",
