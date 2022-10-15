@@ -1,8 +1,15 @@
 import React from "react";
 import ademImage from "../assets/Adem.jpg";
 import { Typewriter } from 'react-simple-typewriter'
-/*
- <Typewriter
+
+const Home = () => {
+  return (
+    <section className="flex flex-col md:flex-row justify-center  md:justify-between items-center mt-4 md:mt-36   ">
+      <div className="md:ml-16 mb-4">
+        <div className="  mb-8 top-16  lg:left-10 text-center mx-auto sm:top-1/3 md:top-1/4 left-5 text-2xl sm:left-5 sm:text-4xl md:left-24 md:text-4xl  xl:left-48 xl:text-7xl font-bold">
+          
+          <p id="text" className="text-red-500 mb-4">
+          <Typewriter
             words={['Curios', 'Passionate', 'Motivated', 'Organized!']}
             loop={5}
             cursor
@@ -12,15 +19,6 @@ import { Typewriter } from 'react-simple-typewriter'
             delaySpeed={1000}
             
           />
-*/
-const Home = () => {
-  return (
-    <section className="flex flex-col md:flex-row justify-center  md:justify-between items-center mt-4 md:mt-36   ">
-      <div className="md:ml-16 mb-4">
-        <div className="  mb-8 top-16  lg:left-10 text-center mx-auto sm:top-1/3 md:top-1/4 left-5 text-2xl sm:left-5 sm:text-4xl md:left-24 md:text-4xl  xl:left-48 xl:text-7xl font-bold">
-          
-          <p id="text" className="text-red-500 mb-4">
-         
           </p><span className="text-gray-600 ">Web Developer</span>
          
 
