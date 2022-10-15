@@ -31,7 +31,7 @@ const MobileMenu = () => {
         <NavLink  to="/works"
             className="link border-b-2 w-screen text-center p-4 hover:bg-cyan-100"
            
-         >Work</NavLink>       
+         >Projects</NavLink>       
         </nav>
     </>
   )

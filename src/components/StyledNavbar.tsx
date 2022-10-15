@@ -118,7 +118,7 @@ const StyledNavbar = () => {
            hover:before:w-full
            hover:before:opacity-100
            "
-         >Work</NavLink>      
+         >Projects</NavLink>      
 
         </nav>
   )
