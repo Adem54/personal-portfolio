@@ -1,15 +1,18 @@
 
 import {Outlet} from "react-router-dom";
+import { useContextData } from "../context/Context";
 import Footer from "./Footer";
 import Header from "./Header";
 import SocialIcons from "./SocialIcons";
 
 
-const Home = () => {
+const SharedLayout = () => {
+  const {mode,setMode}=useContextData();
+
   return (
    <>
     <Header/>
-   <section className="bg-gradient-to-t from-indigo-200  to-white-200  h-auto  xl:h-screen pt-24 pb-40  mt-4 ">
+   <section className={`bg-gradient-to-t from-indigo-200  to-white-200  h-auto  xl:h-screen pt-24 pb-40  mt-4 ${mode ? 'from-slate-800 to-slate-900':''}`}>
     <SocialIcons/>
    <Outlet/>
    </section>
@@ -18,4 +21,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default SharedLayout

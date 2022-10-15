@@ -1,15 +1,18 @@
 import React from "react";
 import ademImage from "../assets/Adem.jpg";
 import { Typewriter } from 'react-simple-typewriter'
+import { useContextData } from "../context/Context";
 
 const Home = () => {
+  const {mode,setMode}=useContextData();
+
   return (
     <section className="flex flex-col md:flex-row justify-center  md:justify-between items-center mt-4 md:mt-36   ">
       <div className="md:ml-24 mb-4  lg:ml-32">
         <div className="  mb-8 top-16  lg:left-10   text-center mx-auto sm:top-1/3 md:top-1/4 left-5 text-2xl sm:left-5  md:left-24 
         sm:text-3xl  xl:left-48 xl:text-7xl font-bold">
           
-          <p id="text" className="text-red-500 mb-4">
+          <p id="text" className={` mb-4 ${mode ? 'text-yellow-500':'text-red-500'}`}>
           <Typewriter
             words={['Curios', 'Passionate', 'Motivated', 'Organized!']}
             loop={5}
@@ -20,7 +23,7 @@ const Home = () => {
             delaySpeed={1000}
             
           />
-          </p><span className="text-gray-600 ">Web Developer</span>
+          </p><span className={`text-gray-600  ${mode ? 'text-white':''}`}>Web Developer</span>
          
 
         </div>

@@ -1,11 +1,14 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import { useContextData } from '../context/Context';
 
 
 
 const StyledNavbar = () => {
+  const {mode,setMode}=useContextData();
+
   return (
-    <nav className="hidden sm:flex sm:gap-x-6 md:gap-x-12 relative text-gray-600 font-bold text-sm uppercase ">
+    <nav className={`hidden sm:flex sm:gap-x-6 md:gap-x-12 relative text-gray-600  font-bold text-sm uppercase ${mode ? 'text-white': ''} `}>
          <NavLink  to="/"  
             className="
             capitalize
@@ -91,7 +94,7 @@ const StyledNavbar = () => {
            "
          >Experience</NavLink>
 
-        <NavLink  to="/works"
+        <NavLink  to="/projects"
            className="
            capitalize
            inline-block

@@ -1,12 +1,15 @@
 import { FaCaretRight } from "react-icons/fa";
 import ademImg from "../assets/adem.jpeg";
+import { useContextData } from "../context/Context";
 const About = () => {
+  const {mode,setMode}=useContextData();
+
   return (
     <section className="mt-4 sm-ml-12 top-1/4 container sm:mx-auto flex flex-col justify-center  items-center   ">
-      <h2 className="text-3xl sm:text-4xl">About Me</h2>
+      <h2 className={`text-3xl sm:text-4xl ${mode ? 'text-white':''}`}>About Me</h2>
 
       <div className="flex  items-center flex-col lg:flex-row lg:justify-around lg:gap-x-8">
-        <p className="lg:w-1/2 w-full px-4 mt-8   xl:text-lg tracking-wide font-roboto  ">
+        <p className={`lg:w-1/2 w-full px-4 mt-8   xl:text-lg tracking-wide font-roboto ${mode ? 'text-white':''}`}>
           Hello. My name is Adem and I am very interested in web-developing. I
           have an IT degree from my home country and was approved by nokut(<b>Norweigan educational system</b>) as a
           bachelor's degree. I have learned a lot myself about web development.

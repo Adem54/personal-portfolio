@@ -1,4 +1,5 @@
 import React from "react";
+import { useContextData } from "../context/Context";
 import {experiences} from "../utils/data";
 
 
@@ -14,15 +15,17 @@ interface ExperienceType {
 
 const Experience = () => {
   console.log("experiences: ",experiences);
+  const {mode,setMode}=useContextData();
+
   return (
     
     
-    <section className="flex justify-center items-center space-y-4 flex-col px-4 ">
+    <section className={`flex justify-center items-center space-y-4 flex-col px-4 ${mode ? 'text-white':''}`}>
 
 
       {experiences.map((item)=>{
         const {img,from,til,roll,description,company}=item;
-          return    <div className="flex  justify-start ring-1  ring-black flex-col md:flex-row items-start  md:w-5/6 lg:w-3/4 rounded-sm gap-x-4 md:items-center">
+          return    <div className={`flex  justify-start ring-1  ring-black ${mode ? 'ring-white': ''} flex-col md:flex-row items-start  md:w-5/6 lg:w-3/4 rounded-sm gap-x-4 md:items-center`}>
           <img
             className="lg:h-72 lg:w-96 md:h-54 sm:w-full h-64 md:w-72 object-cover object-center rounded-sm "
             src={img}

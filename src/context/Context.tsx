@@ -14,6 +14,8 @@ interface ContextType {
   setShowModal: React.Dispatch<React.SetStateAction<boolean>>;
   currentProject:any,
   setCurrentProject: React.Dispatch<React.SetStateAction<any>>;
+  mode:boolean;
+  setMode:React.Dispatch<React.SetStateAction<boolean>>;
   handleToggle: () => void;
   filterProjects: () => any;
 }
@@ -27,6 +29,7 @@ export const ContextProvider = (props: ContextPropsType) => {
   const [projectsStatus, setProjectsStatus] = useState<string>("all");
   const [showModal,setShowModal]=useState<boolean>(false);
   const [currentProject,setCurrentProject]=useState<any>("");
+  const [mode,setMode]=useState<boolean>(false);
 
   const handleToggle = () => {
     setIsOpen((isOpen) => !isOpen);
@@ -50,6 +53,8 @@ export const ContextProvider = (props: ContextPropsType) => {
     setShowModal,
     currentProject,
     setCurrentProject,
+    mode,
+    setMode,
     handleToggle,
     filterProjects,
   };
