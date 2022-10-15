@@ -49,7 +49,7 @@ const SocialIcons = () => {
           <li className='w-[160px] h-[60px] flex justify-between pr-2 pl-4 items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://drive.google.com/file/d/1rbKbUhYaukoMw4q-w-_xF45_gsvurOIL/view'
+              href='https://drive.google.com/file/d/1S9Ve9tEE2AAN3MZioxZyiz_qI5y8OpWR/view?usp=sharing'
               target='_blank' rel="noreferrer"
 
             >
