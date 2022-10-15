@@ -14,7 +14,7 @@ const Works = () => {
     >
       <div className="relative flex  min-h-screen items-center justify-center ">
         <div className="flex   absolute -top-20  container mx-auto    justify-center   text-white gap-x-8 ">
-          <button className={`bg-red-500 px-7 py-2 rounded-sm text-xl ${projectsStatus==='all' ? 'bg-green-400' : ''}`} 
+          <button className={`bg-red-500 px-7 py-2 rounded-sm sm:text-sm  sm:px-5  md:text-xl ${projectsStatus==='all' ? 'bg-green-400' : ''}`} 
           onClick={()=>setProjectsStatus("all")}
 
           >
