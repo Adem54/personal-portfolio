@@ -18,8 +18,8 @@ const Experience = () => {
 
   return (
     <section
-      className={`flex justify-center items-center pt-24 bg-gray-100 space-y-4 flex-col px-4 ${
-        mode ? "bg-slate-900 text-white" : ""
+      className={`flex justify-center items-center pt-24  space-y-4 flex-col px-4 ${
+        mode ? "bg-slate-900 text-white" : "bg-gray-100"
       }`}
     >
 
