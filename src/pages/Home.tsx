@@ -7,7 +7,7 @@ const Home = () => {
   const {mode,setMode}=useContextData();
 
   return (
-    <section className="flex flex-col md:flex-row justify-center  md:justify-between items-center mt-4 md:mt-36   ">
+    <section className="flex flex-col pt-36 md:flex-row justify-center  md:justify-between items-center mt-4 md:pt-48 pb-24  ">
       <div className="md:ml-24 mb-4  lg:ml-32">
         <div className="  mb-8 top-16  lg:left-10   text-center mx-auto sm:top-1/3 md:top-1/4 left-5 text-2xl sm:left-5  md:left-24 
         sm:text-3xl  xl:left-48 xl:text-7xl font-bold">

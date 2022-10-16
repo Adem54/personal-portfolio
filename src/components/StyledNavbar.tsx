@@ -36,6 +36,7 @@ const StyledNavbar = () => {
                 hover:before:w-full
                 hover:before:opacity-100
             "
+          
          >Home</NavLink>
          <NavLink  to="/about"
            className="

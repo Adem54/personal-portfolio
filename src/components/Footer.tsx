@@ -6,7 +6,7 @@ const Footer = () => {
   const {mode,setMode}=useContextData();
 
   return (
-    <footer className={`w-full h-screen-10 bg-slate-200 flex ${mode ? 'bg-black': ''}`}>
+    <footer className={`w-full relative z-70 h-screen-10  bg-slate-200 flex   ${mode ? 'bg-black': ''}`}>
     <div
     className="container mx-auto  flex justify-around items-center"
     >

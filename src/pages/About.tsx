@@ -5,7 +5,7 @@ const About = () => {
   const {mode,setMode}=useContextData();
 
   return (
-    <section className="mt-4 sm-ml-12 top-1/4 container sm:mx-auto flex flex-col justify-center  items-center   ">
+    <section className="mt-4 sm-ml-12 top-1/4 pt-24 container sm:mx-auto flex flex-col justify-center pb-24  items-center   ">
       <h2 className={`text-3xl sm:text-4xl ${mode ? 'text-white':''}`}>About Me</h2>
 
       <div className="flex  items-center flex-col lg:flex-row lg:justify-around lg:gap-x-8">

@@ -12,7 +12,7 @@ const SharedLayout = () => {
   return (
    <>
     <Header/>
-   <section className={`bg-gradient-to-t from-indigo-200  to-white-200  h-auto  xl:h-screen pt-24 pb-40  mt-4 ${mode ? 'from-slate-800 to-slate-900':''}`}>
+   <section className={`bg-gradient-to-t from-indigo-200  to-white-200  h-auto  xl:h-screen    mt-4 ${mode ? 'from-slate-800 to-slate-900':''}`}>
     <SocialIcons/>
    <Outlet/>
    </section>

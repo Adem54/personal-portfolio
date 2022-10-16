@@ -4,12 +4,13 @@ import { useContextData } from "../context/Context";
 import { Link } from "react-router-dom";
 import Modal from "../components/Modal";
 const Works = () => {
-  const { projectsStatus, setProjectsStatus,filterProjects, setShowModal,showModal,currentProject,setCurrentProject}=useContextData();
+  const { projectsStatus, setProjectsStatus,filterProjects, setShowModal,showModal,currentProject,setCurrentProject,mode}=useContextData();
   console.log("projectStatus: ",projectsStatus);
 
 
+// mode ? "bg-slate-900 text-white" : ""
   return (
-    <section className="relative top-8  " 
+    <section className={`relative top-8 pb-24  pt-32 bg-gray-100  ${mode ? "bg-slate-900 text-white" : ""}`} 
   
     >
       <div className="relative flex  min-h-screen items-center justify-center ">
