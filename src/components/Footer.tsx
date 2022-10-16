@@ -6,7 +6,7 @@ const Footer = () => {
   const {mode,setMode}=useContextData();
 
   return (
-    <footer className={`w-full relative z-70 h-screen-10  bg-slate-200 flex   ${mode ? 'bg-black': ''}`}>
+    <footer className={`w-full relative z-70 h-screen-10   flex   ${mode ? 'bg-black': 'bg-slate-200'}`}>
     <div
     className="container mx-auto  flex justify-around items-center"
     >
@@ -15,7 +15,7 @@ const Footer = () => {
 
 
 <nav className={` w-1/3   items-center hidden md:flex
-       transition-all ease-in-out  duration-1000  text-gray-600  font-bold text-md capitalize ${mode ? 'text-white':''}`}>
+       transition-all ease-in-out  duration-1000    font-bold text-md capitalize ${mode ? 'text-white':'text-gray-600'}`}>
        
     {/* <div  className="absolute top-3 right-3 cursor-pointer text-2xl text-white z-32 "> <MdCancel onClick={handleToggle}/></div> */}
          <Link  to="/"  

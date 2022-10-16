@@ -10,33 +10,14 @@ const About = () => {
 
       <div className="flex  items-center flex-col lg:flex-row lg:justify-around lg:gap-x-8">
         <p className={`lg:w-1/2 w-full px-4 mt-8   xl:text-lg tracking-wide font-roboto ${mode ? 'text-white':''}`}>
-          Hello. My name is Adem and I am very interested in web-developing. I
-          have an IT degree from my home country and was approved by nokut(<b>Norweigan educational system</b>) as a
-          bachelor's degree. I have learned a lot myself about web development.
-          I enjoy a lot to learn self new things in programming through the
-          Internet. I mostly use youtube, the udemy course platform and
-          medium.com to develop myself in web development. I have created some
-          projects myself using html, css, javascript, react-redux, and Asp.net
-          core.
+        Hello. My name is Adem, and I'm very interested in web development. I took an IT degree from my own country, which nokut (the Norwegian educational system) recognized as a bachelor's degree. I've picked up a lot of knowledge about web programming. I really give importance to utilize the Internet to update myself on new programming concepts.To improve my web programming skills, I mostly utilize Medium.com, Udemy, and YouTube. I've built a few applications myself using react-redux, javascript, ASP.Net Core.
           <br />
           <span >
-            I have attended the Get academy web development course from January
-            to May. For part of the course period, I have experienced internship
-            in a software company called Netsense. I have completed a front-end
-            project name of Hemsedal happenings project. I can describe myself
-            as a front-end developer who can also back-end. I'm not as good at
-            the back-end as I am at the front-end, but I'm on my way to getting
-            better at the back-end as well. In the long term, my plan is to
-            become a good full-stack developer. I am happy to be active in
-            social life.
+          From January to May, I took the Get Academy web development course. I had an internship at the software business Netsense for a part of the course. I've finished working on a front-end project called Hemsedal Happenings. I consider myself to be a front-end developer with back-end skills.
           </span>
           <br />
-          <br />
           <span>
-            I am interested in going on trips and participating in voluntary
-            activities. I have been to the Red Cross, KIA, Klyve
-            Nærmømiljøsenter, NLM secondhand butik and Cancer Society. I am
-            still a volunteer in everyday help at the cancer association.
+          I enjoy participating in social life and joining volunteer works. I've attended the Cancer Society, Red Cross, KIA, Klyve Naermiljsenter, and NLM Secondhand Butik. I continue to volunteer at the cancer association daily.
           </span>
           <br />
           <br />

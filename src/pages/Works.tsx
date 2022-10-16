@@ -10,7 +10,7 @@ const Works = () => {
 
 // mode ? "bg-slate-900 text-white" : ""
   return (
-    <section className={`relative top-8 pb-24  pt-32 bg-gray-100  ${mode ? "bg-slate-900 text-white" : ""}`} 
+    <section className={`relative top-8 pb-24  pt-32   ${mode ? "bg-slate-900 text-white" : "bg-gray-100"}`} 
   
     >
       <div className="relative flex  min-h-screen items-center justify-center ">
