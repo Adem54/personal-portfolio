@@ -13,7 +13,7 @@ const About = () => {
         Hello, I'm Adem and I'm from Turkey. I graduated from the IT department of Sakarya University in Turkey. I'm very interested in web development and spend most of my time learning new things in this field through the internet. I place great importance on keeping myself up-to-date and strive to develop myself, especially by using the Udemy course platform, medium.com, and Stack Overflow. I am interested in both backend and frontend development, and you can find many of my projects in these areas in my portfolio
           <br />
           <span >
-          From January to May 2022, I attended the Get Academy full-stack web development course. During the 1.5-month period of the course, I completed an internship at Netsense Software IT company. I completed a project called "happening" (hemsedal-happening-project), which was a part of the company's ongoing project. You can also find this project in my portfolio.
+          From January to May 2022, I attended the Get Academy full-stack web development course. During the 1.5-month period of the course, I have been as an intern at Netsense Software IT company. I completed a project called "happening" (hemsedal-happening-project), which was a part of the company's ongoing project. You can also find this project in my portfolio.
           </span>
           <br />
           <span>
