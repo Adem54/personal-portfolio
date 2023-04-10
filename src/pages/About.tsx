@@ -17,7 +17,7 @@ const About = () => {
           </span>
           <br />
           <span>
-          I am a very social person and enjoy being active in the community. I have volunteered at places such as the Cancer Patients Association, Red Cross, Kia, Klyve Nærmiljøsenter, and NLM Secondhand Boutique. I am currently volunteering in the everyday help area of the Cancer Patients Association.
+          I am a very social person and enjoy being active in the community. I have volunteered at places such as the Cancer Patients Association, Red Cross, Kia, Klyve Nærmiljøsenter, and NLM Secondhand Boutique. I am currently volunteering in the hverdagshjelp area of the Cancer Patients Association.
           </span>
           <br />
           <br />
