@@ -10,14 +10,14 @@ const About = () => {
 
       <div className="flex  items-center flex-col lg:flex-row lg:justify-around lg:gap-x-8">
         <p className={`lg:w-1/2 w-full px-4 mt-8   xl:text-lg tracking-wide font-roboto ${mode ? 'text-white':''}`}>
-        Hello. My name is Adem, and I'm very interested in web development. I took an IT degree from my own country, which nokut (the Norwegian educational system) recognized as a bachelor's degree. I've picked up a lot of knowledge about web programming. I really give importance to utilize the Internet to update myself on new programming concepts.To improve my web programming skills, I mostly utilize Medium.com, Udemy, and YouTube. I've built a few applications myself using react-redux, javascript, ASP.Net Core.
+        Hello, I'm Adem and I'm from Turkey. I graduated from the IT department of Sakarya University in Turkey. I'm very interested in web development and spend most of my time learning new things in this field through the internet. I place great importance on keeping myself up-to-date and strive to develop myself, especially by using the Udemy course platform, medium.com, and Stack Overflow. I am interested in both backend and frontend development, and you can find many of my projects in these areas in my portfolio
           <br />
           <span >
-          From January to May, I took the Get Academy web development course. I had an internship at the software business Netsense for a part of the course. I've finished working on a front-end project called Hemsedal Happenings. I consider myself to be a front-end developer with back-end skills.
+          From January to May 2022, I attended the Get Academy full-stack web development course. During the 1.5-month period of the course, I completed an internship at Netsense Software IT company. I completed a project called "happening" (hemsedal-happening-project), which was a part of the company's ongoing project. You can also find this project in my portfolio.
           </span>
           <br />
           <span>
-          I enjoy participating in social life and joining volunteer works. I've attended the Cancer Society, Red Cross, KIA, Klyve Naermiljsenter, and NLM Secondhand Butik. I continue to volunteer at the cancer association daily.
+          I am a very social person and enjoy being active in the community. I have volunteered at places such as the Cancer Patients Association, Red Cross, Kia, Klyve Nærmiljøsenter, and NLM Secondhand Boutique. I am currently volunteering in the everyday help area of the Cancer Patients Association.
           </span>
           <br />
           <br />
